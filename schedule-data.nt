@@ -1,4 +1,18 @@
 # Το αρχείο N-Triples με τα δεδομένα του ωρολογίου προγράμματος
 # και τις δηλώσεις rdf:type για κάθε οντότητα.
+_:0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Lecture> . 
+_:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Lecture> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/Mylonas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Teacher> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/Eksorixi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Course> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/pms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Room> . 
+_:2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Lecture> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/Pateli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Teacher> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/epeixirimatikotita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Course> . 
+_:3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Lecture> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/Avlonitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Teacher> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/prosomoiosi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Course> . 
+_:4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Lecture> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/Vlamos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Teacher> . 
+<http://dilab77.ionio.gr/swp/fotakel/resource/pliroforiki%20ekpaideysi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/fotakel/vocab#Course> . 
 
 
