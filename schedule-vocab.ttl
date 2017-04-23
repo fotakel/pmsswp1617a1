@@ -1,4 +1,38 @@
 # Το αρχείο Turtle του λεξιλογίου RDFS που περιγράφει
 # τις κλάσεις και τις ιδιότητες του ωρολογίου προγράμματος.
+PREFIX vocab: <http://dilab77.ionio.gr/swp/fotakel/vocab#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+vocab:Teacher rdf:type rdfs:Class .
+vocab:Dialeksi rdf:type rdfs:Class .
+vocab:Classroom rdf:type rdfs:Class .
+vocab:Lecture rdf:type rdfs:Class .
+vocab:Teacher rdfs:subClassOf foaf:Person .
 
+
+vocab:KATHIGITIS rdf:type rdf:Property .
+vocab:MATHIMA rdf:type rdf:Property .
+vocab:AITHOUSA rdf:type rdf:Property .
+vocab:EXAMINO rdf:type rdf:Property . 
+vocab:ORA%20ENARXIS rdf:type rdf:Property .
+vocab:ORA%20LIXIS rdf:type rdf:Property .
+vocab:MERA rdf:type rdf:Property .
+
+vocab:MATHIMA rdfs:domain vocab:Lecture .
+vocab:AITHOUSA rdfs:domain vocab:Lecture .
+vocab:EXAMINO rdfs:domain vocab:Lecture .
+vocab:ORA%20ENARXIS rdfs:domain vocab:Lecture .
+vocab:ORA%20LIXIS rdfs:domain vocab:Lecture .
+vocab:MERA rdfs:domain vocab:Lecture .
+
+vocab:KATHIGITIS rdfs:domain vocab:Lecture .
+vocab:MATHIMA rdfs:range vocab:Dialeksi .
+vocab:AITHOUSA rdfs:range vocab:Classroom .
+vocab:EXAMINO rdfs:range xsd:string .
+vocab:ORA%20ENARXIS rdfs:range xsd:time .
+vocab:ORA%20LIXIS rdfs:range xsd:time .
+vocab:MERA rdfs:range xsd:string .
+vocab:KATHIGITIS rdfs:range vocab:Teacher .
 
